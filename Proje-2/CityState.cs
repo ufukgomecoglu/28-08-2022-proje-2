@@ -25,7 +25,7 @@ namespace Proje_2
             comboBoxCity.ValueMember = "CityID";
             comboBoxCity.DisplayMember = "Name";
             List<City> cities = dataModel.GetCity();
-            cities.Insert(0, new City() {CityID=0,Name="Chose"}) ;
+            cities.Insert(0, new City {CityID=0,Name="Chose"}) ;
             comboBoxCity.DataSource= cities ;
             comboBoxState.Enabled = false ;
         }
