@@ -43,6 +43,7 @@ namespace Proje_2
             else
             {
                 comboBoxState.Enabled = false;
+                comboBoxState.Text = "";
             }
         }
     }
